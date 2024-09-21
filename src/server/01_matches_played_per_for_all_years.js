@@ -18,4 +18,4 @@ function matches_played_per_team_each_season() {
 
 const count_for_matches_per_season = matches_played_per_team_each_season();
 
-fs.writeFileSync('/home/shubham/Desktop/Projetc/IPL_New/src/public/output/1_matches_per_year.json', JSON.stringify(count_for_matches_per_season, null, 2));
+fs.writeFileSync('/home/shubham/Desktop/Projetc/IPL_New/src/public/output/01_matches_per_year.json', JSON.stringify(count_for_matches_per_season, null, 2));
